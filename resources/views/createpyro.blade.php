@@ -8,7 +8,6 @@
     <input name="kerja" type="text">
     <button type="submit">Hantar</button>
 </form>
-
 @if ($errors->any())
     <div>
         <ul>

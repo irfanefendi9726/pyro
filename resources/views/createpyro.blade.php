@@ -1,5 +1,6 @@
-create pyro
-
+<!DOCTYPE html>
+<head></head>
+<body>
 <form method="POST" action="/pyro">
     @csrf
     <input name="nama" type="text">
@@ -17,3 +18,5 @@ create pyro
         </ul>
     </div>
 @endif
+</body>
+</html>

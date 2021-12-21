@@ -51,7 +51,7 @@
         <div class="container" style="min-height: 75rem;padding-top: 4.5rem;">
             @yield('content') 
         </div> 
-        <div>
+        <div class>
             Termination processs 
         </div>    
         

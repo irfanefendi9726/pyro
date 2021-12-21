@@ -128,5 +128,12 @@
                 </div>
             </div>
         </div>
+        <div class="lg-4 text-center text-sm text-black-600 sm:text-right sm:ml-0">
+
+
+        Termination Process ready to execute
+    
+    
+        </div>
     </body>
 </html>

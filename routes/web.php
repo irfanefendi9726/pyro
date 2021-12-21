@@ -25,4 +25,5 @@ use App\Http\Controllers\PyroController;
 Route::resource('pyro', PyroController::class);
 
 
+
 ?>

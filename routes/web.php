@@ -23,7 +23,6 @@ Route::get('/dua', function() {
 
 use App\Http\Controllers\PyroController;
 Route::resource('pyro', PyroController::class);
-  return view('indexpyro');
 
 
 ?>

@@ -24,10 +24,10 @@ html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/about">About</a>
+                            <a class="nav-link" aria-current="page" href="/dua">About</a>
                         </li>   
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/pricing">Pricing</a>
+                            <a class="nav-link" aria-current="page" href="/dua">Pricing</a>
                         </li>                         
                    
 
@@ -51,16 +51,16 @@ html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
            <br>
            <br>
         <table>      
-          <div class="container" col span="2" style=" padding=80px; width=30%;">
-            <form action="/dua" ></form>
-            <label for="nama">Nama penuh: </label><br>
-            <input type="text" id="nama" name="nama"><br>
-            <label for="age">Umur: </label><br>
-            <input type="number" id="age" name="age"><br>
-            <label for="kerja">Pekerjaan: </label><br>
-            <input type="text" id="kerja" name="kerja"><br>
-            <input type="submit" value="submit"><br>
-        </div>
+          <div class="container" style=" padding=80px; width=30%;">
+                <form action="/dua" ></form>
+                    <label for="nama">Nama penuh: </label><br>
+                        <input type="text" id="nama" name="nama"><br>
+                    <label for="age">Umur: </label><br>
+                        <input type="number" id="age" name="age"><br>
+                    <label for="kerja">Pekerjaan: </label><br>
+                        <input type="text" id="kerja" name="kerja"><br>
+                    <input type="submit" value="submit"><br>
+          </div>
         </table>
         <div></div>
         <div></div>

@@ -1,5 +1,6 @@
-create pyro
-
+<!DOCTYPE html>
+<head></head>
+<body>
 <form method="POST" action="/pyro">
     @csrf
     <input name="nama" type="text">
@@ -7,7 +8,6 @@ create pyro
     <input name="kerja" type="text">
     <button type="submit">Hantar</button>
 </form>
-
 @if ($errors->any())
     <div>
         <ul>
@@ -17,3 +17,5 @@ create pyro
         </ul>
     </div>
 @endif
+</body>
+</html>

@@ -104,13 +104,12 @@ class PyroController extends Controller
         //
     }
 
-    /**
-    * Get the age associated with the user. */
-    public function pinresu()
+    /** Get the age associated with the user. */
+    public function pyroresult()
     {
         return $pyro=pyro::where('id',1)
                ->orderBy('nama')
-               ->get();  
+               ->get('age');  
     }
 
     /** Get the user by using their job */

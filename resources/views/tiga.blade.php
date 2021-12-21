@@ -51,7 +51,7 @@ html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
            <br>
            <br>
         <table>      
-          <div class="container" style=" padding=80px; width=30%;">
+          <div class=" style=" padding=80px; width=30%;">
                 <form action="/dua" ></form>
                     <label for="nama">Nama penuh: </label><br>
                         <input type="text" id="nama" name="nama"><br>

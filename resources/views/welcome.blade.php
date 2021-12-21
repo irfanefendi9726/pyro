@@ -50,13 +50,14 @@
 
         <div class="container" style="min-height: 75rem;padding-top: 4.5rem;">
             @yield('content') 
-        </div>  
+        </div> 
+        <div>
+            Termination processs 
+        </div>    
         
            
      
-    <div>
-     Termination processs already executed 
-    </div>   
+    
     </body>
 
 </html>

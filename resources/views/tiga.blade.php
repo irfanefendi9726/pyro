@@ -50,18 +50,21 @@ html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
            <br> 
            <br>
            <br>
-        <table>      
-          <div class=" style=" padding=80px; width=30%;">
-                <form action="/dua" ></form>
+             
+          <div class="container" style=" padding=80px; width=30%;">
+          <table>      
+          <form action="/dua" >
                     <label for="nama">Nama penuh: </label><br>
-                        <input type="text" id="nama" name="nama"><br>
+                        <input type="text" id="nama" name="nama" ><br>
                     <label for="age">Umur: </label><br>
-                        <input type="number" id="age" name="age"><br>
+                        <input type="number" id="age" name="age" ><br>
                     <label for="kerja">Pekerjaan: </label><br>
-                        <input type="text" id="kerja" name="kerja"><br>
-                    <input type="submit" value="submit"><br>
-          </div>
-        </table>
+                        <input type="text" id="kerja" name="kerja" ><br><br>
+                    <input type="submit" value="Submit" >&nbsp;
+                    <input type="reset"><br>
+            </form>
+            </table>
+        </div>
         <div></div>
         <div></div>
 

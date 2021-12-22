@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Prototype Example</title>
-        <link rel = "icon" href = 
-        "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
-        type = "image/x-icon">
+        <link rel ="icon" href = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type = "image/x-icon">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -68,7 +66,7 @@ html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
             </form>
             </table>
         </div>
-        <div></div>
+        
         <div></div>
 
         <div class="container" style="min-height: 75rem;padding-top: 4.5rem;">

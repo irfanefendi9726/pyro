@@ -4,7 +4,6 @@ html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>MyPapanTanda</title>
         <title>Prototype Example</title>
         <link rel = "icon" href = 
         "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 

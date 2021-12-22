@@ -75,10 +75,6 @@
         <div class>
             Termination processs 
         </div>    
-        
-           
-        
-    
     </body>
     
 

@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Prototype Example</title>
+        <title> Prototype Example </title>
         <link rel ="icon" href = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" type = "image/x-icon">
 
         <!-- Fonts -->
@@ -67,7 +67,9 @@
             </table>
         </div>
         
-        <div></div>
+        <div><table><tr><th><b>All of the registered user: </b></th></tr>
+            <tr><td>Name</td><td>Age</td><td>Job</td></tr>
+            <tr>return $this</tr></table></div>
 
         <div class="container" style="min-height: 75rem;padding-top: 4.5rem;">
             @yield('content') 

@@ -29,4 +29,5 @@ Route::resource('pyro', PyroController::class);
 
 
 
+
 ?>

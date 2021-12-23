@@ -27,6 +27,8 @@ Route::get('/tiga', function() {
 use App\Http\Controllers\PyroController;
 Route::resource('pyro', PyroController::class);
 
+Route::post('/CreatePyro', 'PyroController@storePyros');
+Route::get('/getContacts', 'PyroController@getAllPyroInfo');
 
 
 

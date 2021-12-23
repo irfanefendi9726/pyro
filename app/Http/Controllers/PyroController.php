@@ -118,5 +118,14 @@ class PyroController extends Controller
     return $count=pyro::where('active',1)->count();
     }
 
+    public function storePyros(Request $request){
+        // validation goes here
+        $pyro = pyro::create($request->all());
+        return $pyro;
+        }
+        public function getAllPyroInfo(){
+        $pyros = pyro::all();
+        }
+    
     
 }

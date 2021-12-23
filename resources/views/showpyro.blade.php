@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-show pyro #{{$pyro->id}}
-nama: {{$pyro->nama}}
-umur: {{$pyro->age}}
-kerja: {{$pyro->kerja}}
+show pyros #{{$pyros->id}}
+nama: {{$pyros->nama}}
+umur: {{$pyros->age}}
+kerja: {{$pyros->kerja}}
 </html>

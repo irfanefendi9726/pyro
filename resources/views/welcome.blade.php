@@ -27,7 +27,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/about">About</a>
+                            <a class="nav-link" aria-current="page" href="/tiga">3 </a>
                         </li>   
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/pricing">Pricing</a>

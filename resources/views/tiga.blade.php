@@ -66,15 +66,13 @@
             </form>
             </table>
         </div>
-        
         <div><table><tr><th><b>All of the registered user: </b></th></tr>
             <tr><td>Name</td><td>Age</td><td>Job</td></tr></table>
             <tr><td>
-                @foreach($pyro as $key => $data)
-                {{$data->id}}
-                {{$data->nama}}
-                {{$data->age}}
-                {{$data->kerja}}
+                @foreach($pyro as $pyros)
+                {{$pyros->nama}}
+                {{$pyros->age}}
+                {{$pyros->kerja}}
                 @endforeach
             </td></tr>
         </div>

@@ -15,10 +15,8 @@ class PyroController extends Controller
      */
     public function index()
     {
-        $pyros = pyro::all();
-        return view('pyro.index',[
-            'pyros'=> $pyros
-        ]);   
+        $pyro = pyro::all();
+        return view('tiga', compact('pyro'));    
     }
 
     /**

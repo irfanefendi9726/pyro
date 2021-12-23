@@ -25,16 +25,8 @@ Route::get('/dua', function() {
 Route::get('/tiga', function() {
     $pyro = DB::table('pyros')->get();
 
-    return view('tiga', ['pyro' => $pyro]);
+    return view('tiga', ['pyros' => $pyro]);
 }); 
-use App\Http\Controllers\PyroController;
-Route::resource('pyro', PyroController::class);
-
-Route::post('/CreatePyro', 'PyroController@storePyros');
-Route::get('/getContacts', 'PyroController@getAllPyroInfo');
-
-Route::get('/getAll', 'PyroController@showPyro');
-
 
 
 ?>

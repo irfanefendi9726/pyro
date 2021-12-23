@@ -45,7 +45,7 @@ class PyroController extends Controller
             'kerja'=> 'required',
         ]);
 
-        $pyro = new Pyro;
+        $pyro = new pyro;
         $pyro->nama = $request->nama;
         $pyro->age = $request->age;
         $pyro->kerja= $request->kerja;
@@ -112,20 +112,5 @@ class PyroController extends Controller
                ->get('age');  
     }
 
-    /** Get the user by using their job */
-    public function kerja()
-    {
-    return $count=pyro::where('active',1)->count();
+    
     }
-
-    public function storePyros(Request $request){
-        // validation goes here
-        $pyro = pyro::create($request->all());
-        return $pyro;
-        }
-        public function getAllPyroInfo(){
-        $pyros = pyro::all();
-        }
-    
-    
-}

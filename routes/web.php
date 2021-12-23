@@ -17,18 +17,23 @@ Route::get('/', function () {
 });
 
 Route::get('/dua', function() {
+    
     return view ('dua');
 }); 
 
 
 Route::get('/tiga', function() {
-    return view ('tiga');
+    $pyro = DB::table('pyros')->get();
+
+    return view('tiga', ['pyro' => $pyro]);
 }); 
 use App\Http\Controllers\PyroController;
 Route::resource('pyro', PyroController::class);
 
 Route::post('/CreatePyro', 'PyroController@storePyros');
 Route::get('/getContacts', 'PyroController@getAllPyroInfo');
+
+Route::get('/getAll', 'PyroController@showPyro');
 
 
 

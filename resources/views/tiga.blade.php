@@ -69,9 +69,13 @@
         
         <div><table><tr><th><b>All of the registered user: </b></th></tr>
             <tr><td>Name</td><td>Age</td><td>Job</td></tr></table>
-            <tr><td>@foreach ($pyros As $key => $value)
-                    <option value="{{$value->id}}">{{$value->nama}}</option>
-                    @endforeach
+            <tr><td>
+                @foreach($pyro as $key => $data)
+                {{$data->id}}
+                {{$data->nama}}
+                {{$data->age}}
+                {{$data->kerja}}
+                @endforeach
             </td></tr>
         </div>
          

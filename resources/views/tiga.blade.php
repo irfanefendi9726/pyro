@@ -70,7 +70,8 @@
         <div><table><tr><th><b>All of the registered user: </b></th></tr>
             <tr><td>Name</td><td>Age</td><td>Job</td></tr></table>
             <tr><td>@foreach ($pyros As $key => $value)
-                    <option value+= "{{$value->nama}}">
+                    <option value="{{$value->id}}">{{$value->nama}}</option>
+                    @endforeach
             </td></tr>
         </div>
          

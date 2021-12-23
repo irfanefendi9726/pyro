@@ -68,8 +68,12 @@
         </div>
         
         <div><table><tr><th><b>All of the registered user: </b></th></tr>
-            <tr><td>Name</td><td>Age</td><td>Job</td></tr>
-            <tr>return $this</tr></table></div>
+            <tr><td>Name</td><td>Age</td><td>Job</td></tr></table>
+            <tr><td>@foreach ($pyros As $key => $value)
+                    <option value+= "{{$value->nama}}">
+            </td></tr>
+        </div>
+         
 
         <div class="container" style="min-height: 75rem;padding-top: 4.5rem;">
             @yield('content') 

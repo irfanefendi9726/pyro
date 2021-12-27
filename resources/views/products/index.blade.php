@@ -7,7 +7,7 @@
                 <h2>Submit your name and details here and we can proceed with the solution</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
+                <a class="btn btn-success" href="{{ route('products.create') }}"> Create Complaint</a>
             </div>
         </div>
     </div>

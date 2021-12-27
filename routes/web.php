@@ -21,5 +21,11 @@ Route::get('/dua', function() {
     return view ('dua');
 }); 
 
+Route::get('/tiga', function () {
+    return view ('tiga');
+});
+
+Route::resource('products', ProductController::class);
+
 use App\Http\Controllers\PyroController;
 Route::resource('pyro', PyroController::class);
